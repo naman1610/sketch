@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    background-color: #c3c3c3;
+}
+
+h1 {
+    text-align: center;
+    background-color:  #d2266a;
+    color: #fbff97;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#container {
+    width : 40%;
+    margin: 0 auto;
 }
 
 .horizontal {
-    border: 2px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple;   For testing and viewing the grid*/
     aspect-ratio: 1 / 1;
     width: 100%;
+    background-color: #ffffff;
 }
 
 .vertical {
