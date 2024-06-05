@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
 * {
     margin: 0;
@@ -8,16 +8,41 @@
 
 h1 {
     text-align: center;
-    background-color:  #d2266a;
+    background-color: #d2266a;
     color: #fbff97;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 40px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+#counter {
+    margin-left: 60px;
+    box-shadow: 0px 10px 14px -7px #000000;
+    background: linear-gradient(to bottom, #d66b96 5%, #d2266b 100%);
+    background-color: #d66b96;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 13px 19px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+#counter:hover {
+    background: linear-gradient(to bottom, #d2266b 5%, #d66b96 100%);
+    background-color: #d2266b;
+}
+#counter:active {
+    position: relative;
+    top: 1px;
 }
 
 #container {
-    width : 40%;
+    width: 40%;
     margin: 0 auto;
 }
 
